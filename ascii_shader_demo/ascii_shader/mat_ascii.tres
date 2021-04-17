@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=2]
+
+[ext_resource path="res://ascii_shader/ascii_shader.shader" type="Shader" id=1]
+[ext_resource path="res://ascii_shader/courier_period.png" type="Texture" id=2]
+[ext_resource path="res://ascii_shader/courier_underscore.png" type="Texture" id=3]
+[ext_resource path="res://ascii_shader/courier_octothorp.png" type="Texture" id=4]
+[ext_resource path="res://ascii_shader/courier_at.png" type="Texture" id=5]
+[ext_resource path="res://ascii_shader/courier_plus.png" type="Texture" id=6]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/char_width = 13.0
+shader_param/char_height = 14.0
+shader_param/b1 = ExtResource( 2 )
+shader_param/b2 = ExtResource( 2 )
+shader_param/b3 = ExtResource( 3 )
+shader_param/b4 = ExtResource( 3 )
+shader_param/b5 = ExtResource( 6 )
+shader_param/b6 = ExtResource( 6 )
+shader_param/b7 = ExtResource( 4 )
+shader_param/b8 = ExtResource( 4 )
+shader_param/b9 = ExtResource( 5 )
